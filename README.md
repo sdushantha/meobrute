@@ -15,7 +15,7 @@ Automate the proccess of brute forcing the My Eyes Only pin code on Snapchat
 This script was tested on an Android device running Android 10 with LinageOS with Snapchat
 v11.71.1.39
 
-## How it works
+## How it works (_[Demo on YouTube](https://www.youtube.com/watch?v=uokcG95hqj0)_)
 Snapchat saves the 4 digit My Eyes Only (MEO) pincode encrypted using [bcrypt](https://en.wikipedia.org/wiki/Bcrypt) in `/data/data/com.snapchat.android/databases/memories.db`.
 
 ![image](images/database.png)
