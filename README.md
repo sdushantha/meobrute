@@ -24,11 +24,3 @@ Once you've gotten the hash and saved it into a file (eg.`meohash.txt`), you can
 ```
 hashcat --attack-method 3200 --attack-mode 3 meohash.txt "?d?d?d?d"
 ```
-
-This is not a security vulnerability of a sort because Snapchat needs a place to store the hashed
-pincode so that the user can log into their MEO. But what could be done is to use a salt to make
-more difficult to crack.
-
-The only real scenario of using this script would be if an attacker has managed to gain a victim's
-Snapchat login credentials (example: through phishing) and then log in to a rooted Android device
-so that they can use this script to gain access to the photos and videos in the victim's MEO.
